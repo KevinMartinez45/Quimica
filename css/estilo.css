@@ -3,11 +3,24 @@
     margin: 0px;
     font-family: Century Gothic;
     box-sizing: border-box;
+    line-height: 2rem;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+
+}
+::-webkit-scrollbar-track {
+    background: #dddddd; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 238, 238, 0.514);
+    
+}
 
 body{
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: whitesmoke;
 }
 
 .logoimg{
@@ -33,7 +46,9 @@ body{
     flex: 1;
     padding: 25px;
     min-width: 250px; 
+    background-color: rgb(255, 255, 255);
     margin-top: 100px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 .in-flex:first-child{
@@ -43,16 +58,18 @@ body{
     margin: 20px;
     margin-bottom: 0px;
     margin-top: 100px;
+    
 }
 
 .in-flex div{
     padding: 25px;
     background-color: white;
     margin: 20px;
+    
 }
 
 nav{
-    background:rgb(97, 187, 172);
+    background:#6DADE0;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -90,7 +107,7 @@ nav ul li a{
 }
 
 li a.active, li a:hover{
-    background:rgb(45, 247, 170);
+    background:#549FDB;
     transition: .5s ;
 }
 
